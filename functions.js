@@ -27,7 +27,7 @@ document.getElementById('menuIcon').addEventListener('click', function() {
   
   menuIcon2.style.display = 'block';
   asideMenu.style.display = 'block';
-  menuIcon.style.display = 'none'
+  menuIcon.style.display = 'none';
 
 document.getElementById('menuIcon2') .addEventListener('click', function(){
   const asideMenu = document.getElementById('asideMenu');
@@ -38,7 +38,7 @@ document.getElementById('menuIcon2') .addEventListener('click', function(){
   
   menuIcon2.style.display = 'none';
   asideMenu.style.display = 'none';
-  menuIcon.style.display = 'block'
+  menuIcon.style.display = 'block';
 })
 
 });
